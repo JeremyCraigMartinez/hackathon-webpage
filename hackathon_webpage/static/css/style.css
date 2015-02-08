@@ -1,0 +1,10 @@
+.FixedHeightContainer
+{
+  float:right;
+}
+.Content
+{
+  height:224px;
+  overflow:auto;
+  padding-bottom: 2cm;  
+}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="jumbotron">
+  <h1>WSU Plays Pokemon!</h1>
+  <p>This is our version of <a href="http://www.twitch.tv/twitchplayspokemon">Twitch Plays Pokemon</a>. This version takes the traffic from the WSU Wireless network and allocates popular domain names to GameBoy buttons. So give it a try! See how good you all are at collectively playing Pokemon Yellow!</p>
+  <p>
+    <a class="btn btn-lg btn-primary" href="{% url 'home:live' %}" role="button">Check it out!</a>
+  </p>
+</div>
+{% endblock %}
